@@ -64,4 +64,7 @@
 (HelloOrWorld "World")
 (HelloOrWorld "Bye!")
 
-  
+;vectors
+(vector 1 2 3)
+(equal? (vector 1 2 3) (vector 1 2 4))
+(equal? (vector 1 2 3) (vector 1 2 3))
